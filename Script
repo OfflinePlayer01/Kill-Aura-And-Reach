@@ -5,19 +5,19 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
     vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 end)
  
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Made By _offlineplayer_";
-    Text = "_offlineplayer_ is My Discord Name*";
-    Duration = 2;
- 
-   
-})
-wait(1)
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Good Luck :)";
-    Text = "Enjoy Killing!"; -- Hello (ofc)
-    Duration = 2;
-})
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "〰 Script By _offlineplayer_ 〰";
+        Text = "〰 _offlineplayer_ is My Discord Name 〰";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 5;
+
+wait(2)
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "〰 Good Luck 〰";
+        Text = "〰 Enjoy Killing 〰";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 5;
+
 _G.HeadSize = 20
 _G.Disabled = true
 
